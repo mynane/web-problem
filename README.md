@@ -1,7 +1,7 @@
 # i-have-a-problem
 记录学习中遇到的问题，记录成长
 
-正在进行 1. 《float 与 display:inline-block的区别是什么》
+正在进行 1. 《前端跨域解决》
 1. [Issues地址](https://github.com/mynane/i-have-a-problem/issues/4)
 
 正在进行 2. 《float 与 display:inline-block的区别是什么》
