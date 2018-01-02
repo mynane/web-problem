@@ -27,3 +27,6 @@
 
 第一期《[meta viewport原理](./01.meta%20viewport%E5%8E%9F%E7%90%86.md)》
 1. [Issues地址](https://github.com/mynane/i-have-a-problem/issues/1)
+
+#### 个人订阅号（前端趣闻）
+![前端趣闻](./assets/qrcode.jpg)
