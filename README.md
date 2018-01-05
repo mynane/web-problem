@@ -16,7 +16,7 @@
 - 正在进行 2. 《web缓存》
 1. [Issues地址](https://github.com/mynane/i-have-a-problem/issues/5)
 
-- 正在进行 1. 《前端跨域解决》
+- 第四期 《[前端跨域解决](./04.前端跨域解决.md)》
 1. [Issues地址](https://github.com/mynane/i-have-a-problem/issues/4)
 
 - 第三期《[float与display:inline-block的区别](./03.floath和inline-block的区别.md)》
