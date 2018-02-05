@@ -3,6 +3,7 @@
 
 | 期数   | 主题 | Issues地址 | 状态 |
 | :-----: | :------: | :------: | :------: |
+| 第十期 | 作用域链 | [讨论地址](https://github.com/mynane/web-problem/issues/10) | 进行中 |
 | 第九期 | PWA 是什么、给我们带来了什么？ | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/9) | 进行中 |
 | 第八期 | websocket原理与应用 | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/8) | 进行中 |
 | 第七期 | WebAssembly给前端带来了什么 | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/7) | 进行中 |
