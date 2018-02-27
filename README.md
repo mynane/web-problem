@@ -6,7 +6,7 @@
 | 第十期 | 作用域链 | [讨论地址](https://github.com/mynane/web-problem/issues/10) | 进行中 |
 | 第九期 | PWA 是什么、给我们带来了什么？ | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/9) | 进行中 |
 | 第八期 | websocket原理与应用 | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/8) | 进行中 |
-| 第七期 | [WebAssembly给前端带来了什么](./07.WebAssembly%E7%BB%99%E5%89%8D%E7%AB%AF%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/7) | 进行中 |
+| 第七期 | [WebAssembly给前端带来了什么](./07.WebAssembly%E7%BB%99%E5%89%8D%E7%AB%AF%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/7) | 关闭 |
 | 第六期 | [css优化](./06.css优化与盒子模型.md)| [讨论地址](https://github.com/mynane/i-have-a-problem/issues/6) | 关闭 |
 | 第五期 | [web缓存](./05.web缓存.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/5) | 关闭 |
 | 第四期 | [前端跨域解决](./04.前端跨域解决.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/4) | 关闭 |
