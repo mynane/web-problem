@@ -14,5 +14,8 @@
 | 第二期 | [域名发散与收敛](./02.域名发散与收敛.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/2) | 关闭 |
 | 第一期 | [meta viewport原理](./01.meta%20viewport%E5%8E%9F%E7%90%86.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/1) | 关闭 |
 
+#### 杂记：
+[记-01.xcode模拟器管理.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-01.xcode%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%AE%A1%E7%90%86.md)
+
 #### 个人订阅号（前端趣闻）
 ![前端趣闻](./assets/qrcode.jpg)
