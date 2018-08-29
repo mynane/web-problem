@@ -15,7 +15,7 @@
 | 第一期 | [meta viewport原理](./01.meta%20viewport%E5%8E%9F%E7%90%86.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/1) | 关闭 |
 
 #### 杂记：
-[杂记-01.xcode模拟器管理.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-01.xcode%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%AE%A1%E7%90%86.md)
+[杂记-01.xcode模拟器管理.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-01.xcode%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%AE%A1%E7%90%86.md)   
 [杂记-02.HTML5的Video标签的属性,方法和事件汇总.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-02.HTML5%E7%9A%84Video%E6%A0%87%E7%AD%BE%E7%9A%84%E5%B1%9E%E6%80%A7%2C%E6%96%B9%E6%B3%95%E5%92%8C%E4%BA%8B%E4%BB%B6%E6%B1%87%E6%80%BB.md)
 
 #### 个人订阅号（前端趣闻）
