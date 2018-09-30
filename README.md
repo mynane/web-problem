@@ -21,6 +21,7 @@
 [杂记-04.数据结构.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-04.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)   
 [杂记-04-1.数据结构之数组.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-04-1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8B%E6%95%B0%E7%BB%84.md)   
 [杂记-05.代码抽象三原则.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-05.%E4%BB%A3%E7%A0%81%E6%8A%BD%E8%B1%A1%E4%B8%89%E5%8E%9F%E5%88%99.md)
+[杂记-06.flutter配置国内镜像.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-06.flutter%E9%85%8D%E7%BD%AE%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F.md)
 
 #### 个人订阅号（前端趣闻）
 ![前端趣闻](./assets/qrcode.jpg)
