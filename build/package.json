@@ -1,0 +1,19 @@
+{
+  "name": "web-problem",
+  "version": "1.0.0",
+  "description": "记录学习中遇到的问题，记录成长（每一期都会在订阅号上同步更新，也欢迎大家一起参与）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynane/web-problem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mynane/web-problem/issues"
+  },
+  "homepage": "https://github.com/mynane/web-problem#readme"
+}

@@ -1,27 +1,39 @@
 # web-problem
-记录学习中遇到的问题，记录成长（每一期都会在订阅号上同步更新，也欢迎大家一起参与）
-
-| 期数   | 主题 | Issues地址 | 状态 |
-| :-----: | :------: | :------: | :------: |
-| 第十期 | 作用域链 | [讨论地址](https://github.com/mynane/web-problem/issues/10) | 进行中 |
-| 第九期 | PWA 是什么、给我们带来了什么？ | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/9) | 进行中 |
-| 第八期 | websocket原理与应用 | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/8) | 进行中 |
-| 第七期 | [WebAssembly给前端带来了什么](./07.WebAssembly%E7%BB%99%E5%89%8D%E7%AB%AF%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/7) | 关闭 |
-| 第六期 | [css优化](./06.css优化与盒子模型.md)| [讨论地址](https://github.com/mynane/i-have-a-problem/issues/6) | 关闭 |
-| 第五期 | [web缓存](./05.web缓存.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/5) | 关闭 |
-| 第四期 | [前端跨域解决](./04.前端跨域解决.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/4) | 关闭 |
-| 第三期 | [float与display:inline-block的区别](./03.floath和inline-block的区别.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/3) | 关闭 |
-| 第二期 | [域名发散与收敛](./02.域名发散与收敛.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/2) | 关闭 |
-| 第一期 | [meta viewport原理](./01.meta%20viewport%E5%8E%9F%E7%90%86.md) | [讨论地址](https://github.com/mynane/i-have-a-problem/issues/1) | 关闭 |
-
-#### 杂记：
-[杂记-01.xcode模拟器管理.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-01.xcode%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%AE%A1%E7%90%86.md)   
-[杂记-02.HTML5的Video标签的属性,方法和事件汇总.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-02.HTML5%E7%9A%84Video%E6%A0%87%E7%AD%BE%E7%9A%84%E5%B1%9E%E6%80%A7%2C%E6%96%B9%E6%B3%95%E5%92%8C%E4%BA%8B%E4%BB%B6%E6%B1%87%E6%80%BB.md)   
-[杂记-03.判断页面ready.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-03.%E5%88%A4%E6%96%AD%E9%A1%B5%E9%9D%A2ready.md)   
-[杂记-04.数据结构.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-04.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)   
-[杂记-04-1.数据结构之数组.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-04-1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8B%E6%95%B0%E7%BB%84.md)   
-[杂记-05.代码抽象三原则.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-05.%E4%BB%A3%E7%A0%81%E6%8A%BD%E8%B1%A1%E4%B8%89%E5%8E%9F%E5%88%99.md)    
-[杂记-06.flutter配置国内镜像.md](https://github.com/mynane/web-problem/blob/master/%E6%9D%82%E8%AE%B0-06.flutter%E9%85%8D%E7%BD%AE%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F.md)
-
+记录学习中遇到的问题，记录成长
+| 期数   | 主题 | 地址 |
+| :-----: | :------: | :------: |
+| 杂记-01 | xcode模拟器管理 | [地址](./杂记-01.xcode模拟器管理.md) |
+| 杂记-02 | HTML5的Video标签的属性,方法和事件汇总 | [地址](./杂记-02.HTML5的Video标签的属性,方法和事件汇总.md) |
+| 杂记-03 | 判断页面ready | [地址](./杂记-03.判断页面ready.md) |
+| 杂记-04-1 | 数据结构之数组 | [地址](./杂记-04-1.数据结构之数组.md) |
+| 杂记-04 | 数据结构 | [地址](./杂记-04.数据结构.md) |
+| 杂记-05 | 代码抽象三原则 | [地址](./杂记-05.代码抽象三原则.md) |
+| 杂记-06 | flutter配置国内镜像 | [地址](./杂记-06.flutter配置国内镜像.md) |
+| 杂记-07 | 页面解析渲染 | [地址](./杂记-07.页面解析渲染.md) |
+| 杂记-08 | ssh免密登陆 | [地址](./杂记-08.ssh免密登陆.md) |
+| 杂记-09 | mqtt入门使用 | [地址](./杂记-09.mqtt入门使用.md) |
+| 杂记-10 | mv*介绍 | [地址](./杂记-10.mv*介绍.md) |
+| 杂记-11 | JS实现继承的几种方式 | [地址](./杂记-11.JS实现继承的几种方式.md) |
+| 杂记-12 | BFC是什么？ | [地址](./杂记-12.BFC是什么？.md) |
+| 杂记-13 | js中new一个对象的过程 | [地址](./杂记-13.js中new一个对象的过程.md) |
+| 杂记-14 | 手写Promise | [地址](./杂记-14.手写Promise.md) |
+| 杂记-15 | css基础 | [地址](./杂记-15.css基础.md) |
+| 杂记-16 | cookie安全 | [地址](./杂记-16.cookie安全.md) |
+| 杂记-17 | JavaScript 中的执行上下文和执行栈 | [地址](./杂记-17.JavaScript 中的执行上下文和执行栈.md) |
+| 杂记-18 | 获取运行环境 | [地址](./杂记-18.获取运行环境.md) |
+| 杂记-19 | 面试问题总结 | [地址](./杂记-19.面试问题总结.md) |
+| 杂记-20 | http状态码含义 | [地址](./杂记-20.http状态码含义.md) |
+| 杂记-21 | meta viewport原理 | [地址](./杂记-21.meta viewport原理.md) |
+| 杂记-22 | 域名发散与收敛 | [地址](./杂记-22.域名发散与收敛.md) |
+| 杂记-23 | floath和inline-block的区别 | [地址](./杂记-23.floath和inline-block的区别.md) |
+| 杂记-24 | 前端跨域解决 | [地址](./杂记-24.前端跨域解决.md) |
+| 杂记-25 | web缓存 | [地址](./杂记-25.web缓存.md) |
+| 杂记-26 | css优化与盒子模型 | [地址](./杂记-26.css优化与盒子模型.md) |
+| 杂记-27 | WebAssembly给前端带来了什么 | [地址](./杂记-27.WebAssembly给前端带来了什么.md) |
+| 杂记-28 | Vue | [地址](./杂记-28.Vue.nextTick实现.md) |
+| 杂记-29 | 从输入url到页面加载完成发生了什么？ | [地址](./杂记-29.从输入url到页面加载完成发生了什么？.md) |
+| 杂记-30 | webworker使用 | [地址](./杂记-30.webworker使用.md) |
+| 杂记-31 | css指定打印时只显示指定区域 | [地址](./杂记-31.css指定打印时只显示指定区域.md) |
+| 杂记-32 | 一个好用的图片占位图地址 | [地址](./杂记-32.一个好用的图片占位图地址.md) |
 #### 个人订阅号（前端趣闻）
 ![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)
