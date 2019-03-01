@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');//解析需要遍历的文件夹
 var filePath = path.resolve('../');
-var template = '# web-problem\n\n记录学习中遇到的问题，记录成长\n| 期数   | 主题 | 地址 |\n| :-----: | :------: | :------: |'
+var template = '# web-problem\n记录学习中遇到的问题，记录成长\n\n| 期数   | 主题 | 地址 |\n| :-----: | :------: | :------: |'
 var ignoreFiles = ['README.md', '.gitignore']
 
 //调用文件遍历方法
