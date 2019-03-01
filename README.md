@@ -39,4 +39,3 @@
 
 #### 个人订阅号（前端趣闻）
 ![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)
-Fri Mar 01 2019 13:51:22 GMT+0800 (CST)

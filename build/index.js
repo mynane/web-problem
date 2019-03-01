@@ -31,7 +31,9 @@ function fileDisplay(filePath) {
           }
         }
       });
-      template += '\n\n#### 个人订阅号（前端趣闻）\n![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)\n' + new Date();
+      var date = new Date();
+      var year = date.getFullYear();
+      template += '\n\n#### 个人订阅号（前端趣闻）\n![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)\n';
       fs.writeFileSync('../README.md', template);
       console.log(template);
     }
