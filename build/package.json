@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mynane/web-problem/issues"
   },
-  "homepage": "https://github.com/mynane/web-problem#readme"
+  "homepage": "https://github.com/mynane/web-problem#readme",
+  "dependencies": {
+    "node-schedule": "^1.3.2"
+  }
 }
