@@ -48,8 +48,9 @@ function fileDisplay(filePath) {
               template += `#### 作者：${res.auth}`;
             }
             if (res.time) {
-              template += `、时间：${res.time}\n***\n`
+              template += `、时间：${res.time}\n`;
             }
+            template += `***\n`;
           }
         }
       });
