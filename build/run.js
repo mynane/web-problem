@@ -27,7 +27,7 @@ function fileDisplay(filePath) {
           if (ignoreFiles.indexOf(filename) === -1) {
             var fileArr = filename.split('.');
             template += `### ${fileArr[0]}\n`;
-            template += `#### [地址](./' + ${encodeURIComponent(filename)} + ')\n\n***`;
+            template += `#### [地址](./${encodeURIComponent(filename)})\n\n***\n`;
             // template += ('\n| ' + fileArr[0] + ' | ' + fileArr[1] + ' | [地址](./' + filename + ') |')
           }
         }
