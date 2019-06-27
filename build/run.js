@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');//解析需要遍历的文件夹
-var ignoreFiles = ['README.md', '.gitignore', '.git'];
+var ignoreFiles = ['README.md', '.gitignore', '.git', '.DS_Store'];
 
 //调用文件遍历方法
 // fileDisplay(filePath);
