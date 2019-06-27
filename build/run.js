@@ -27,8 +27,8 @@ function fileDisplay(filePath) {
         // var isDir = stats.isDirectory();//是文件夹
         if (isFile) {
           if (ignoreFiles.indexOf(filename) === -1) {
-            const res = parseDoc(fs.readFileSync(filedir).toString());
-            console.log(res);
+            // const res = parseDoc(fs.readFileSync(filedir).toString());
+            // console.log(res);
             var fileArr = filename.split('.');
             template += `### ${fileArr[0]}\n`;
             template += `#### 作者：hazer、时间：2018-6-26\n`;
@@ -40,7 +40,7 @@ function fileDisplay(filePath) {
       var year = date.getFullYear();
       template += '\n\n#### 个人订阅号（前端趣闻）\n![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)\n';
       fs.writeFileSync('../README.md', template);
-      // console.log(template);
+      console.log(template);
     }
   });
 }
