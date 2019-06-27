@@ -20,7 +20,7 @@ function parseDoc(doc) {
 
 //文件遍历方法
 function fileDisplay(filePath) {
-  var template = '# 前端点滴\n> 记录学习中遇到的问题，记录成长\n\n';
+  var template = '# 前端点滴\n> 记录学习中遇到的问题，记录成长\n---\n';
   //根据文件路径读取文件，返回文件列表
   fs.readdir(filePath, function (err, files) {
     if (err) {
