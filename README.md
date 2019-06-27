@@ -36,6 +36,11 @@
 | 杂记-30 | webworker使用 | [地址](./杂记-30.webworker使用.md) |
 | 杂记-31 | css指定打印时只显示指定区域 | [地址](./杂记-31.css指定打印时只显示指定区域.md) |
 | 杂记-32 | 一个好用的图片占位图地址 | [地址](./杂记-32.一个好用的图片占位图地址.md) |
+| 杂记-33 | flutter笔记 | [地址](./杂记-33.flutter笔记.md) |
+| 杂记-44 | 一个等待动画 | [地址](./杂记-44.一个等待动画.md) |
+| 杂记-45 | Golang 在 Mac、Linux、Windows 下如何交叉编译 | [地址](./杂记-45.Golang 在 Mac、Linux、Windows 下如何交叉编译.md) |
+| 杂记-46 | node日志监控 | [地址](./杂记-46.node日志监控.md) |
+| 杂记-47 | 怎么写出美观的js代码 | [地址](./杂记-47.怎么写出美观的js代码.md) |
 
 #### 个人订阅号（前端趣闻）
 ![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)
