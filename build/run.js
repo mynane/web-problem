@@ -39,12 +39,12 @@ function fileDisplay(filePath) {
           if (ignoreFiles.indexOf(filename) === -1) {
             const res = parseDoc(fs.readFileSync(filedir).toString());
             var fileArr = filename.split('.');
-            template += `### ${fileArr[0]} - [${fileArr[1]}](./${encodeURIComponent(filename)})\n`;
+            template += `#### ${fileArr[0]} - [${fileArr[1]}](./${encodeURIComponent(filename)})\n`;
             if (res.des) {
-              template += `#### 简介：${res.des}\n`;
+              template += `##### 简介：${res.des}\n`;
             }
             if (res.auth) {
-              template += `#### 作者：${res.auth}`;
+              template += `##### 作者：${res.auth}`;
             }
             if (res.time) {
               template += `、时间：${res.time}\n`;
