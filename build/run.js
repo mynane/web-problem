@@ -5,7 +5,17 @@ var ignoreFiles = ['README.md', '.gitignore', '.git'];
 //调用文件遍历方法
 // fileDisplay(filePath);
 function parseDoc(doc) {
-  console.log(doc)
+  const RG1 = /作者：(.*)/;
+  const RG2 = /时间：(.*)/;
+  const RG3 = /简介：(.*)/;
+  const matchResult1 = doc.match(RG1);
+  const matchResult2 = doc.match(RG2);
+  const matchResult3 = doc.match(RG3);
+  return {
+    auth: matchResult1 ? matchResult1[1] : '',
+    time: matchResult2 ? matchResult2[1] : '',
+    des: matchResult3 ? matchResult3[1] : ''
+  }
 }
 
 //文件遍历方法
@@ -27,12 +37,20 @@ function fileDisplay(filePath) {
         // var isDir = stats.isDirectory();//是文件夹
         if (isFile) {
           if (ignoreFiles.indexOf(filename) === -1) {
-            // const res = parseDoc(fs.readFileSync(filedir).toString());
-            // console.log(res);
+            const res = parseDoc(fs.readFileSync(filedir).toString());
+            console.log(res);
             var fileArr = filename.split('.');
             template += `### ${fileArr[0]} - [${fileArr[1]}](./${encodeURIComponent(filename)})\n`;
+            if (res.des) {
+              template += `#### 简介：${res.des}\n`;
+            }
+            if (res.auth) {
+              template += `#### 作者：${res.auth}`;
+            }
+            if (res.time) {
+              template += `、时间：${res.time}\n***\n`
+            }
             template += `#### 作者：hazer、时间：2018-6-26\n***\n`;
-            // template += `#### [${fileArr[1]}](./${encodeURIComponent(filename)})\n***\n`;
           }
         }
       });
@@ -40,7 +58,7 @@ function fileDisplay(filePath) {
       var year = date.getFullYear();
       template += '\n\n#### 个人订阅号（前端趣闻）\n![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)\n';
       fs.writeFileSync('../README.md', template);
-      console.log(template);
+      // console.log(template);
     }
   });
 }
