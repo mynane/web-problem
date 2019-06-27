@@ -50,7 +50,6 @@ function fileDisplay(filePath) {
             if (res.time) {
               template += `、时间：${res.time}\n***\n`
             }
-            template += `#### 作者：hazer、时间：2018-6-26\n***\n`;
           }
         }
       });
