@@ -9,7 +9,7 @@ function run() {
   fileDisplay(filePath);
 
   process.exec('cd .. && git add . && git commit -m "README自动生成" && git push',function (error, stdout, stderr) {
-    console.log('ok');
+    console.log(stdout);
     if (error !== null) {
       console.log('exec error: ' + error);
     }
