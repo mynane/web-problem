@@ -38,7 +38,6 @@ function fileDisplay(filePath) {
         if (isFile) {
           if (ignoreFiles.indexOf(filename) === -1) {
             const res = parseDoc(fs.readFileSync(filedir).toString());
-            console.log(res);
             var fileArr = filename.split('.');
             template += `### ${fileArr[0]} - [${fileArr[1]}](./${encodeURIComponent(filename)})\n`;
             if (res.des) {
