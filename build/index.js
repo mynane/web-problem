@@ -18,11 +18,10 @@ function run() {
 }
 
 const  scheduleCronstyle = ()=>{
-  //每分钟的第30秒定时执行一次:
-    schedule.scheduleJob('10 * * * * *',()=>{
-      run();
-    }); 
+  // 每天凌晨执行
+  schedule.scheduleJob('0 0 0 * * *',()=>{
+    run();
+  });
 }
 
-// scheduleCronstyle();
-run();
+scheduleCronstyle();
