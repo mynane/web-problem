@@ -30,9 +30,9 @@ function fileDisplay(filePath) {
             // const res = parseDoc(fs.readFileSync(filedir).toString());
             // console.log(res);
             var fileArr = filename.split('.');
-            template += `### ${fileArr[0]}\n`;
-            template += `#### 作者：hazer、时间：2018-6-26\n`;
-            template += `#### [${fileArr[1]}](./${encodeURIComponent(filename)})\n***\n`;
+            template += `### ${fileArr[0]} - [${fileArr[1]}](./${encodeURIComponent(filename)})\n`;
+            template += `#### 作者：hazer、时间：2018-6-26\n***\n`;
+            // template += `#### [${fileArr[1]}](./${encodeURIComponent(filename)})\n***\n`;
           }
         }
       });
