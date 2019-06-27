@@ -8,7 +8,7 @@ var ignoreFiles = ['README.md', '.gitignore']
 
 //文件遍历方法
 function fileDisplay(filePath) {
-  var template = '# web-problem\n记录学习中遇到的问题，记录成长\n\n| 期数   | 主题 | 地址 |\n| :-----: | :------: | :------: |'
+  var template = '# 前端点滴\n> 记录学习中遇到的问题，记录成长\n\n';
   //根据文件路径读取文件，返回文件列表
   fs.readdir(filePath, function (err, files) {
     if (err) {
@@ -26,7 +26,9 @@ function fileDisplay(filePath) {
         if (isFile) {
           if (ignoreFiles.indexOf(filename) === -1) {
             var fileArr = filename.split('.');
-            template += ('\n| ' + fileArr[0] + ' | ' + fileArr[1] + ' | [地址](./' + filename + ') |')
+            template += `### ${fileArr[0]}\n`;
+            template += `#### [地址](./' + ${encodeURIComponent(filename)} + ')\n\n***`;
+            // template += ('\n| ' + fileArr[0] + ' | ' + fileArr[1] + ' | [地址](./' + filename + ') |')
           }
         }
       });
