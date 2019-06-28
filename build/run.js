@@ -27,7 +27,7 @@ function fileDisplay(filePath) {
       console.warn(err)
     } else {
 
-      for (let i = files.length - 1; i >= 0; i--) {
+      for (let i = files.length; i >= 0; i--) {
         const filename = files[i];
         console.log(i, filename);
         //获取当前文件的绝对路径
