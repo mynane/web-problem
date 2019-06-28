@@ -1,9 +1,11 @@
 var fs = require('fs');
 var path = require('path');//解析需要遍历的文件夹
 var ignoreFiles = ['README.md', '.gitignore', '.git', '.DS_Store'];
+const filePath = path.resolve('../docs/');
 
 //调用文件遍历方法
 // fileDisplay(filePath);
+
 function parseDoc(doc) {
   const RG1 = /作者：(.*)/;
   const RG2 = /时间：(.*)/;
@@ -26,9 +28,10 @@ function fileDisplay(filePath) {
     if (err) {
       console.warn(err)
     } else {
-      
-      //遍历读取到的文件列表
-      files.forEach(function (filename) {
+
+      for (let i = files.length - 1; i >= 0; i--) {
+        const filename = files[i];
+        console.log(i, filename);
         //获取当前文件的绝对路径
         var filedir = path.join(filePath, filename);
         //根据文件路径获取文件信息，返回一个fs.Stats对象
@@ -52,7 +55,12 @@ function fileDisplay(filePath) {
             template += `***\n`;
           }
         }
-      });
+      }
+      
+      //遍历读取到的文件列表
+      // files.forEach(function (filename) {
+        
+      // });
       var date = new Date();
       var year = date.getFullYear();
       template += '\n\n#### 个人订阅号（前端趣闻）\n![前端趣闻](https://github.com/mynane/web-problem/blob/master/assets/qrcode.jpg)\n';
