@@ -7,7 +7,6 @@ const filePath = path.resolve('../docs/');
 
 function run() {
   process.exec(`cd .. && git pull && git add .`, function (error, stdout, stderr) {
-    console.log(error);
     if (error === null) {
       fileDisplay(filePath);
       const date = new Date();
