@@ -4,7 +4,8 @@ var ignoreFiles = ['README.md', '.gitignore', '.git', '.DS_Store'];
 const filePath = path.resolve('../docs/');
 
 //调用文件遍历方法
-fileDisplay(filePath);
+// fileDisplay(filePath);
+
 function parseDoc(doc) {
   const RG1 = /作者：(.*)/;
   const RG2 = /时间：(.*)/;
@@ -70,7 +71,7 @@ function fileDisplay(filePath) {
 }
 
 
-// module.exports = {
-//   fileDisplay
-// }
+module.exports = {
+  fileDisplay
+}
 
