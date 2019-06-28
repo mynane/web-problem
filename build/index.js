@@ -9,7 +9,7 @@ function run() {
   // fileDisplay(filePath);
   const date = new Date();
 
-  process.exec(`git pull && node ./run.js && cd .. && git add . && git commit -m  'README自动生成:${date}' && git push`, function (error, stdout, stderr) {
+  process.exec(`git pull && node ./run.js && cd .. && git add . && git commit -m  'README自动生成:${date}'`, function (error, stdout, stderr) {
     console.log(stderr);
     if (error !== null) {
       console.log('exec error: ' + error);
