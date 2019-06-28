@@ -29,6 +29,7 @@ function fileDisplay(filePath) {
 
       for (let i = files.length - 1; i >= 0; i++) {
         const filename = files[i];
+        console.log(i, filename);
         //获取当前文件的绝对路径
         var filedir = path.join(filePath, filename);
         //根据文件路径获取文件信息，返回一个fs.Stats对象
