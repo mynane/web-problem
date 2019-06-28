@@ -3,7 +3,7 @@ const process = require('child_process');
 const path = require('path');
 const { fileDisplay } = require('./run');
 
-const filePath = path.resolve('./docs/');
+const filePath = path.resolve('../docs/');
 
 function run() {
   const date = new Date();
