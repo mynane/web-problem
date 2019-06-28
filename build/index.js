@@ -38,5 +38,5 @@ const  scheduleCronstyle = ()=>{
   });
 }
 
-// scheduleCronstyle();
-run();
+scheduleCronstyle();
+// run();
