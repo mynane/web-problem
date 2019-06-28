@@ -24,4 +24,5 @@ const  scheduleCronstyle = ()=>{
   });
 }
 
-scheduleCronstyle();
+// scheduleCronstyle();
+run();
