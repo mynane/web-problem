@@ -19,7 +19,7 @@ function run() {
 
 const  scheduleCronstyle = ()=>{
   // 每天凌晨执行
-  schedule.scheduleJob('0 0 0 * * *',()=>{
+  schedule.scheduleJob('0 0 * * * *',()=>{
     run();
   });
 }
